@@ -1,69 +1,68 @@
-# React + TypeScript + Vite
+AL-MOHANDIS CIC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Entreprise spécialisée en  *Génie Civil, Études Techniques et Travaux*. Ce projet est une vitrine web présentant les services de la société Al-Mohandis CIC.
 
-Currently, two official plugins are available:
+Capture d'écran de l'accueil
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Capture](../Brief1/src/assets/capture%20README/Capture%20d’écran%20du%202025-07-07%2011-25-30.png)
 
-## Expanding the ESLint configuration
+(https://github.com/doudouabdoulaye/AL-MOHANDIS)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Technologies utilisées
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- React (avec Vite)
+- Tailwind CSS
+- Git & GitHub
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Structure du projet
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+
+src/
+├── components/    # Composants réutilisables
+│ ├── Header.tsx   # Navigation principale
+│ ├── Hero.tsx     # Section héro
+│ ├── Features.tsx # Section fonctionnalités
+│ ├── Sidebar.tsx  # Barre latérale
+│ └── Footer.tsx   # Pied de page
+├── layouts/       # Layouts de page
+│ ├── MainLayout.tsx      # Layout principal (Header + Footer)
+│ └── SidebarLayout.tsx   # Layout avec sidebar
+├── pages/                # Pages de l'application
+│ └── Dashboard.tsx       # Page tableau de bord
+└── App.tsx               # Composant racine
+
+
+
+ Fonctionnalités
+
+- Présentation des services de l’entreprise
+- Navigation fluide entre les sections
+- Interface claire et responsive
+- Boutons : Consulter les services, Demander service, Télécharger app
+
+
+Services présentés
+
+Ingénierie & Études
+- Études Topographiques et Topométriques  
+- Études Hydrauliques
+- Études Hydrogéologiques  
+- Études Géophysiques  
+- Campagnes Géotechniques  
+- CAO/DAO
+
+Travaux
+- Aménagements Hydro-Agricoles  
+- Civil Construction Services (CCS)  
+- Water Well Drilling Services (WWDS)
+
+Lancer le projet
+
+bash
+npm install
+npm run dev
+
