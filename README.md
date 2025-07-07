@@ -4,7 +4,7 @@ Entreprise spécialisée en  *Génie Civil, Études Techniques et Travaux*. Ce p
 
 Capture d'écran de l'accueil
 
-![Capture](../Brief1/src/assets/capture%20README/Capture%20d’écran%20du%202025-07-07%2011-25-30.png)
+![Capture](./src/assets/capture.png)
 
 (https://github.com/doudouabdoulaye/AL-MOHANDIS)
 
