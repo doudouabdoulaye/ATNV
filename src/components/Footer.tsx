@@ -100,9 +100,7 @@ const Footer = () => {
                                 <li>
                                     <a href="tel:+23599101288" className="hover:text-[#FFA726] text-gray-400 text-sm">+235 99 10 12 88</a>
                                 </li>
-                                <li>
-                                    <a href="mailto:contact@yourcompany.com" className="hover:text-[#FFA726] text-gray-400 text-sm">contact@yourcompany.com</a>
-                                </li>
+                            
                             </ul>
                         </div>
                     </div>
@@ -112,7 +110,7 @@ const Footer = () => {
                     {/* Copyright Information */}
                     <div className="text-center text-gray-400 text-sm">
                         <p>&copy; {new Date().getFullYear()} DOUDOU ABDOULAYE MAHAMAT. Tous droits réservés Propulsé par AL-MOHANDIS </p>
-                    
+
                     </div>
                 </div>
             </footer>
