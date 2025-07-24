@@ -4,11 +4,21 @@ Site vitrine web de l’**Association Tchadienne pour la Non-Violence (ATNV)**, 
 
 ---
 
+## 🌐 Site en ligne
+
+[https://atnvg5.netlify.app](https://atnvg5.netlify.app)
+
+---
+
 ## Capture d'écran de l'accueil
 
 ![Capture](./src/assets/capture.png)
 
-[Voir le dépôt GitHub](https://github.com/doudouabdoulaye/ATNV)
+---
+
+## Dépôt GitHub
+
+[https://github.com/doudouabdoulaye/ATNV](https://github.com/doudouabdoulaye/ATNV)
 
 ---
 
