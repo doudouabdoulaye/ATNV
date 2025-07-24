@@ -1,11 +1,11 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './index.css';
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+// src/main.tsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.tsx'; // Importez votre composant App principal
+import './index.css'; // Assurez-vous que vos styles globaux (Tailwind) sont importés ici
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <App /> {/* Le composant App est rendu ici */}
+  </React.StrictMode>,
 );
-
-
