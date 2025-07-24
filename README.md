@@ -1,68 +1,90 @@
-AL-MOHANDIS CIC
+# ATNV - Association Tchadienne pour la Non-Violence
 
-Entreprise spécialisée en  *Génie Civil, Études Techniques et Travaux*. Ce projet est une vitrine web présentant les services de la société Al-Mohandis CIC.
+Site vitrine web de l’**Association Tchadienne pour la Non-Violence (ATNV)**, une ONG fondée en 1992 et basée à Moundou, Tchad. Ce projet présente les missions, services et actions de l’association, avec un design moderne, clair et responsive.
 
-Capture d'écran de l'accueil
+---
+
+## Capture d'écran de l'accueil
 
 ![Capture](./src/assets/capture.png)
 
-(https://github.com/doudouabdoulaye/AL-MOHANDIS)
+[Voir le dépôt GitHub](https://github.com/doudouabdoulaye/ATNV)
 
+---
 
-Technologies utilisées
+## Technologies utilisées
 
 - React (avec Vite)
 - Tailwind CSS
+- React Router
 - Git & GitHub
 
+---
 
+## Structure du projet
 
-Structure du projet
 
 
 
 src/
-├── components/    # Composants réutilisables
-│ ├── Header.tsx   # Navigation principale
-│ ├── Hero.tsx     # Section héro
-│ ├── Features.tsx # Section fonctionnalités
-│ ├── Sidebar.tsx  # Barre latérale
-│ └── Footer.tsx   # Pied de page
-├── layouts/       # Layouts de page
-│ ├── MainLayout.tsx      # Layout principal (Header + Footer)
-│ └── SidebarLayout.tsx   # Layout avec sidebar
-├── pages/                # Pages de l'application
-│ └── Dashboard.tsx       # Page tableau de bord
-└── App.tsx               # Composant racine
+├── assets/ # Images, logos et ressources statiques
+├── components/ # Composants réutilisables
+│ ├── Header.tsx # Navigation principale avec menu responsive
+│ ├── Hero.tsx # Section héro principale
+│ ├── Features.tsx # Sections fonctionnalités/services
+│ ├── Sidebar.tsx # Barre latérale (optionnelle)
+│ └── Footer.tsx # Pied de page
+├── layouts/ # Layouts globaux des pages
+│ ├── MainLayout.tsx # Layout principal (Header + Footer)
+│ └── SidebarLayout.tsx # Layout avec sidebar
+├── pages/ # Pages du site
+│ ├── Home.tsx # Page d'accueil
+│ ├── AboutUs.tsx # À propos de l'association
+│ ├── NosActions.tsx # Actions et projets de l’association
+│ ├── Blog.tsx # Blog / actualités
+│ └── Contact.tsx # Page contact
+└── App.tsx # Composant racine avec routing
 
 
 
- Fonctionnalités
+ 
+---
 
-- Présentation des services de l’entreprise
-- Navigation fluide entre les sections
-- Interface claire et responsive
-- Boutons : Consulter les services, Demander service, Télécharger app
+## Fonctionnalités
 
+- Présentation complète de l’association et de ses services
+- Navigation fluide et responsive
+- Interface claire et accessible
+- Menu hamburger sur mobile
+- Formulaire de contact simple
+- Section blog dynamique
 
-Services présentés
+---
 
-Ingénierie & Études
-- Études Topographiques et Topométriques  
-- Études Hydrauliques
-- Études Hydrogéologiques  
-- Études Géophysiques  
-- Campagnes Géotechniques  
-- CAO/DAO
+## Services présentés
 
-Travaux
-- Aménagements Hydro-Agricoles  
-- Civil Construction Services (CCS)  
-- Water Well Drilling Services (WWDS)
+### Location de salle
 
-Lancer le projet
+- Mise à disposition d’espaces pour événements associatifs
 
-bash
+### Media Lab
+
+- Ateliers multimédias et formations numériques
+
+### Accompagnement au développement rural
+
+- Projets d’économie circulaire et développement durable
+
+### Bibliothèque
+
+- Espace de ressources et lecture
+
+---
+
+## Lancer le projet en local
+
+```bash
 npm install
 npm run dev
+
 
