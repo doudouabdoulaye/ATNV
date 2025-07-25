@@ -58,32 +58,32 @@ const Header = () => {
                                 <svg className="h-8 w-8 text-[#FFA726]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     
                                 </svg>
-                                <span className="ml-2 text-4xl font-bold text-[#2fa122] ">ATNV</span>
+                                <span className="ml-2 text-4xl font-bold text-[#1E4530] ">ATNV</span>
                             </div>
                             </div>
                 {/* Navigation principale */}
                 <nav className="hidden xl:flex items-center gap-12 font-semibold text-base">
                     
                     <ul className="flex items-center gap-12">
-                        <li className="p-2 hover:bg-[#16610E] hover:text-white rounded-md transition-all duration-300 cursor-pointer">
+                        <li className="p-2 hover:bg-[#1E4530] hover:text-white rounded-md transition-all duration-300 cursor-pointer">
                             <Link to="/">Accueil</Link>
                         </li>
-                       <Link to="/AboutUs"> <li className="p-2 hover:bg-[#16610E] hover:text-white rounded-md transition-all duration-300 cursor-pointer">
+                       <Link to="/AboutUs"> <li className="p-2 hover:bg-[#1E4530] hover:text-white rounded-md transition-all duration-300 cursor-pointer">
                             À Propos
                         </li></Link>
-                        <li className="p-2 hover:bg-[#16610E] hover:text-white rounded-md transition-all duration-300 cursor-pointer">
+                        <li className="p-2 hover:bg-[#1E4530] hover:text-white rounded-md transition-all duration-300 cursor-pointer">
                             <Link to="/NosActions">Nos Actions</Link>
                         </li>
-                          <li className="p-2 hover:bg-[#16610E] hover:text-white rounded-md transition-all duration-300 cursor-pointer">
+                          <li className="p-2 hover:bg-[#1E4530] hover:text-white rounded-md transition-all duration-300 cursor-pointer">
                             <Link to="/Blog">Blog</Link>
                         </li>
-                        <li className="p-2 hover:bg-[#16610E] hover:text-white rounded-md transition-all duration-300 cursor-pointer">
+                        <li className="p-2 hover:bg-[#1E4530] hover:text-white rounded-md transition-all duration-300 cursor-pointer">
                             <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                     <Link
                         to="/centreMartin"
-                        className="text-white bg-[#16610E] hover:bg-gray-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 ml-4 shadow-lg hover:scale-105 transition-all duration-300 ease-in-out"
+                        className="text-white bg-[#1E4530] hover:bg-gray-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 ml-4 shadow-lg hover:scale-105 transition-all duration-300 ease-in-out"
                     >
                         Centre Martin Luther
                     </Link>
@@ -180,7 +180,7 @@ const Header = () => {
 
            {/* Menu mobile : s'affiche/se cache */}
 <div
-    className={`xl:hidden fixed top-20 left-0 w-full bg-[#16610E]/95 shadow-xl backdrop-blur-md transition-all duration-300 ease-in-out overflow-hidden
+    className={`xl:hidden fixed top-20 left-0 w-full bg-[#1E4530]/95 shadow-xl backdrop-blur-md transition-all duration-300 ease-in-out overflow-hidden
         ${isMenuOpen ? 'max-h-screen opacity-100 py-4 z-50' : 'max-h-0 opacity-0 z-0'}
     `}
 >

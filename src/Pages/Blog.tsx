@@ -107,10 +107,10 @@ const Blog = () => {
       </div>
 
       {/* Button */}
-      <div className="text-center mt-12">
+      <div className="text-center mt-12 ">
         <a
           href="#"
-          className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full transition"
+          className="inline-block bg-[#1E4530] hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full transition "
         >
           Voir tous les articles
         </a>

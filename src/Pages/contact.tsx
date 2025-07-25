@@ -69,7 +69,7 @@ const ContactPage = () => {
                 />
               </div>
               <div className="mb-4">
-                <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
+                <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>   
                 <textarea
                   id="message"
                   name="message"
@@ -80,7 +80,7 @@ const ContactPage = () => {
               </div>
               <button
                 type="submit"
-                className="text-white bg-[#16610E] hover:bg-[#D4AF37] hover:text-black border-0 py-2 px-6 rounded text-lg transition duration-300 ease-in-out"
+                className="text-white bg-[#1E4530] hover:bg-[#D4AF37] hover:text-black border-0 py-2 px-6 rounded text-lg transition duration-300 ease-in-out"
               >
                 Envoyer
               </button>
@@ -97,7 +97,7 @@ const DonateSection = () => {
   const [showForm, setShowForm] = useState(false);
 
   return (
-    <section className="bg-gradient-to-r from-[#16610E] to-[#0e3b0c] text-white py-12 px-4 text-center relative">
+    <section className="bg-[#1E4530]   text-white py-12 px-4 text-center relative">
       <h2 className="text-3xl font-bold mb-4">Soutenez notre mission de paix et de développement</h2>
       <p className="mb-6 max-w-2xl mx-auto">
         Votre contribution aide l’ATNV à poursuivre ses activités de formation, d’accompagnement rural et de promotion de la non-violence au Tchad.
@@ -158,8 +158,8 @@ const DonateSection = () => {
       <ul className="mt-2 space-y-1 text-sm">
         <li><strong>Nom de l'organisation :</strong> ATNV</li>
         <li><strong>Banque :</strong> Banque Commerciale du Tchad (BCT)</li>
-        <li><strong>Numéro de compte :</strong> <span className="text-[#16610E] font-bold">00123456789</span></li>
-        <li><strong>Objet du paiement :</strong> Don volontaire - [Votre nom]</li>
+        <li><strong>Numéro de compte :</strong> <span className="text-[#1E4530] font-bold">00123456789</span></li>
+        <li><strong>Objet du paiement :</strong> Don volontaire</li>
       </ul>
       <p className="mt-2 italic text-sm text-gray-600">
         Une fois le virement effectué, cliquez sur le bouton ci-dessous pour nous notifier.
@@ -168,7 +168,7 @@ const DonateSection = () => {
 
     <button
       type="submit"
-      className="w-full bg-[#16610E] hover:bg-green-700 text-white py-2 rounded font-semibold transition"
+      className="w-full bg-[#1E4530] hover:bg-green-700 text-white py-2 rounded font-semibold transition"
     >
       Confirmer le Don
     </button>

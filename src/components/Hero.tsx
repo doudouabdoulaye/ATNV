@@ -25,7 +25,7 @@ function Hero() {
                 <div className="mt-8 flex flex-wrap gap-4">
                     <a
                         href="#"
-                        className="text-white bg-[#16610E] hover:bg-[#D4AF37] hover:text-black focus:ring-4 focus:ring-[#D4AF37] font-medium rounded-lg text-sm px-6 py-3 shadow-xl hover:scale-105 transition duration-300 ease-in-out"
+                        className="text-white bg-[#1E4530] hover:bg-[#D4AF37] hover:text-black focus:ring-4 focus:ring-[#D4AF37] font-medium rounded-lg text-sm px-6 py-3 shadow-xl hover:scale-105 transition duration-300 ease-in-out"
                     >
                         Consulter les Services
                     </a>
