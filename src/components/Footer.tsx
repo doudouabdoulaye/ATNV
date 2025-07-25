@@ -226,7 +226,7 @@ const Footer = () => {
                 {/* Section inférieure avec copyright animé */}
                 <div className="mt-8 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center"> {/* Reduced mt and pt */}
                     <p className="text-gray-400 text-xs mb-3 md:mb-0"> {/* Reduced text size and mb */}
-                        &copy; {new Date().getFullYear()}  ATNV, DOUDOU ABDOULAYE MAHAMAT. Tous droits réservés.
+                        &copy; {new Date().getFullYear()}  ATNV. Tous droits réservés.
                     </p>
                     <div className="flex space-x-4"> {/* Reduced space-x */}
                         <a href="#" className="text-gray-400 text-xs hover:text-white transition">Politique de Confidentialité</a> {/* Reduced text size */}
